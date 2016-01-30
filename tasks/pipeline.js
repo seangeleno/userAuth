@@ -28,6 +28,7 @@ var jsFilesToInject = [
   'js/dependencies/sails.io.js',
 
   // Dependencies like jQuery, or Angular are brought in here
+  'js/dependencies/jquery-2.2.0.js',
   'js/dependencies/**/*.js',
   'js/public/signup/signupMod.js',
   'js/public/signup/signUpCtrl.js',
