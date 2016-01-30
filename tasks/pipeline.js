@@ -30,8 +30,8 @@ var jsFilesToInject = [
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/jquery-2.2.0.js',
   'js/dependencies/**/*.js',
-  'js/public/signup/signupMod.js',
-  'js/public/signup/signUpCtrl.js',
+  'js/public/signup/SignupMod.js',
+  'js/public/signup/SignupCtrl.js',
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
