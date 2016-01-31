@@ -5,6 +5,7 @@ angular.module('DashMod').controller('DashCtrl',['$scope', '$http', function($sc
     $http.get('/getuser')
     .then(function onSuccess(user){
       console.log(user);
+      $scope.user = user.data;
     })
     .catch(function onError(err){
       console.log(err);
