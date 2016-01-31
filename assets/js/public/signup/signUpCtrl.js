@@ -1,4 +1,4 @@
-angular.module('SignupMod').controller('SignupCtrl',['$scope', '$http', function($scope, $http){
+angular.module('SignupMod').controller('SignUpCtrl',['$scope', '$http', function($scope, $http){
 	console.log('Signup Controller initialized...');
 
 	$scope.runSignup = function(){
@@ -11,7 +11,7 @@ angular.module('SignupMod').controller('SignupCtrl',['$scope', '$http', function
 			password: $scope.password
 		})
 		.then(function onSuccess(response){
-			window.location = '/dashboard'
+			window.location = '/user'
 		})
 		.catch(function onError(err){
 			console.log('Error: ',err);

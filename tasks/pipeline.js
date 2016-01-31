@@ -32,7 +32,7 @@ var jsFilesToInject = [
   'js/dependencies/angular.js',
   'js/dependencies/**/*.js',
   'js/public/signup/SignupMod.js',
-  'js/public/signup/SignupCtrl.js',
+  'js/public/signup/SignUpCtrl.js',
   'js/public/login/LoginMod.js',
   'js/public/login/LoginCtrl.js',
   'js/private/dashboard/DashMod.js',
